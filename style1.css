@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900& display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: 'poppins', sans-serif;
+  
+}
+
+
+.menu_bar {
+    width: 100%;
+    margin: 0;
+    padding: 0 0 0 5%;
+    display: flex;
+   
+    background-color: black;
+    overflow: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.menu_bar ul{
+    list-style: none;
+    display: flex;
+
+}
+
+.menu_bar ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+
+.menu_bar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu_bar ul li a:hover{
+    color: blue;
+    transition: 0.3s;
+}
+.menu_bar ul li:hover .dropdown_menu{
+    display: block;
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    background-color: black;
+}
+.dropdown_menu ul{
+    display: block;
+    margin: 10px;
+}
+.dropdown_menu ul li{
+    width: 140px;
+    padding: 10px;
+}
+.dropdown_menu{
+    display: none;
+}
+
+.hero {
+    background-image: url('0.jpg');
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 50px); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero-text p{text-align: center;}
+
+
+
+.navbar-toggler{
+    position: absolute;
+    margin-top: 0%;
+    margin-right: 90px;
+}
+
+
+
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    
+}
+.navbar .navbar-brand{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+
+
+
+
+.nav-link a{
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: Arial;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+
+
+
+
+
+.header-text {
+    text-align: center;
+    color: #000;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+.about{
+    background: black;
+    padding: 0px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+    
+   
+}
+.about .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: auto;
+
+}
+.about .text h6{
+    color: #f80e0e;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+.about .text h2{
+    color: #f7f5f4;
+    font-weight: 700;
+    font-size: 2.7rem;
+    
+}
+.about .text p{
+    color: #f7f5f4;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+.about .text a{
+    color: #00BF85;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+   
+}
+.about .text a:hover{
+    background: red;
+    transition: 0.4s;
+}
+.ROW a{
+    color: #00BF85;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: -14%;
+    
+}
+.ROW a:hover{
+    background: red;
+    transition: 0.4s;
+}
+
+
+.service{
+    background: #000;
+    text-align: center;
+
+}
+.service .one{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    
+    
+
+}
+.service .book{
+    background: #160606;
+    font-weight: 600;
+    padding: 0.7rem 0.7rem;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: justify;
+    
+    
+    
+}
+.service .book:hover{
+    background: #e01130;
+}
+
+
+  .service .heading {
+    margin: 0 auto; 
+    max-width: 600px; 
+  }
+  
+  .service .one {
+    display: inline-block; 
+    vertical-align: top; 
+    max-width: 300px; 
+  }
+  
+
+
+.sign{
+  background: darkslateblue;
+ }
+ .sign .text{
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     margin: auto;
+ 
+ }
+ .sign .text h6{
+     color: #f80e0e;
+     font-weight: 800;
+     font-size: 1.4rem;
+     letter-spacing: 2px;
+     margin-left: 20%;
+   
+ }
+ .sign .text h2{
+     color: #111;
+     font-weight: 700;
+     font-size: 2.1rem;
+     margin-left: 20%;
+     
+ }
+ .sign .text p{
+     font-weight: 400;
+     font-size: 1.1rem;
+     letter-spacing: 0.5px;
+     margin-left: 20%;
+ }
+ .sign .text a{
+     color: #111;
+     font-weight: 500;
+     padding: 0.6rem 1.4rem;
+     border-radius: 30px;
+     text-decoration: none;
+     color: #fff;
+     margin-left: 20%;
+ }
+
+ .sign .text a:hover{
+     background: red;
+     transition: 0.4s;
+ }
+ 
+ 
+
+
+  
+/* Additional styles for video section */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
+.col {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+
+
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .col {
+    margin: 5px;
+  }
+}
+
+
+
+
+  
+ 
+ 
+  .footer-1 .btn{
+    background: #f80e0e;
+  }
+  .footer-1 .btn:hover{
+    color: #000;
+    transition: 0.4s;
+    background: #00BF85;
+  }
+  .down{
+    background: hwb(60 92% 7%);
+    color: #000000;
+    text-emphasis-color: dark;
+    
+  }
+
+  .dropdown-menu a{
+    color: red;
+  }
+  
+  .icons a{
+    text-decoration: none;
+    color: #100f0f;
+
+
+}
+
+.icons ion-icon{
+    color: blue;
+    font-size: 30px;
+    padding-top: 7px;
+    padding-left: 14px;
+    transition: 0.3s ease;
+
+}
+.icons ion-icon:hover{
+    color: #e80b67;
+}
+
