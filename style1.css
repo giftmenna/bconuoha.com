@@ -75,6 +75,12 @@
 .hero-text p{text-align: center;}
 
 
+.hero-text a{text-align: center;
+background-color: red;
+justify-content: center;
+display: flex;}
+
+
 
 .navbar-toggler{
     position: absolute;
